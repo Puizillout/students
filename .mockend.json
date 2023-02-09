@@ -1,0 +1,31 @@
+{
+  "Student": {
+    "_": {
+      "items": 10
+     
+    },
+    "photo": {
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
+    },
+    "pseudo": {
+      "loremWords": {
+        "minLength": 5,
+        "maxLength": 20
+      }
+    },
+    "age": {
+      "int": {
+        "minLength": 18,
+        "maxLength": 25
+      }
+    },
+    "group": {
+      "string": ["TD21", "TD22", "TD23"]
+    },
+    "alt": {
+      "boolean": {}
+    },
+   
+  }
+ 
+}
