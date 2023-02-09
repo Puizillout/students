@@ -15,8 +15,8 @@
     },
     "age": {
       "int": {
-        "minLength": 18,
-        "maxLength": 25
+        "min": 18,
+        "max": 25
       }
     },
     "group": {
